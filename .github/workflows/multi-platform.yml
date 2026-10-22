@@ -33,6 +33,8 @@ jobs:
       - name: Build the mod
         uses: geode-sdk/build-geode-mod@main
         with:
+          bindings: vwtfafa/bindings
+          bindings-ref: c0c808828d456e54164b60a589b0edd6172b327a
           combine: true
           target: ${{ matrix.config.target }}
 
